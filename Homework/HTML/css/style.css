@@ -68,3 +68,9 @@ a[target="_blank"] img {
     border: 3px solid rgb(102, 14, 61);
 
 }
+
+.price {
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+}
