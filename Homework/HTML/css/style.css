@@ -2,7 +2,7 @@ body {
     background-color: #f8f8f8;
 }
 
-h1+ul a {
+.navigation a {
     font-size: 26px;
     color: rgb(102, 14, 61);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -10,29 +10,25 @@ h1+ul a {
     text-decoration: none;
 }
 
-h1+ul li {
+.navigation li {
     list-style-type: none;
 }
 
-h3,
-h4 {
+.title {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
 
-h3~p,
-p+b,
-b+ul,
-b+ol {
+.descr {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-h4+div {
+.descr__full {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -40,8 +36,7 @@ h4+div {
     text-align: left;
 }
 
-h3+ul,
-h3+ol {
+.char {
     color: rgb(127, 147, 48);
     text-decoration: dashed;
     font-size: 18px;
@@ -49,8 +44,7 @@ h3+ol {
     list-style-image: url(../img/icons/apply_icon.png);
 }
 
-input[type="text"],
-input[type="email"] {
+.input__text {
     width: 300px;
     height: 20px;
     font-size: 20px;
@@ -58,13 +52,13 @@ input[type="email"] {
     font-weight: bold;
 }
 
-textarea {
+.textarea__message {
     width: 200px;
     height: 80px;
     font-size: 18px;
 }
 
-a[target="_blank"] img {
+.item__img img {
     border: 3px solid rgb(102, 14, 61);
 
 }
@@ -73,4 +67,9 @@ a[target="_blank"] img {
     font-size: 30px;
     font-style: italic;
     color: red;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
 }
