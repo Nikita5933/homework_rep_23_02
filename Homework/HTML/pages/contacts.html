@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Contacts</title>
 </head>
 
 <body>
-    <h1>WineCellar.by</h1>
-    <ul>
+    <h1 class="logo__text">WineCellar.by</h1>
+    <ul class="navigation">
         <li><a href="../index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="contacts.html">Контакты</a></li>
@@ -20,21 +21,21 @@
     <fieldset>
         <legend>Напишите нам</legend>
         <form action="#">
-            <input placeholder="Введите ваше имя" type="text"><br>
-            <input placeholder="Введите ваш email" type="email"><br>
-            <input placeholder="Тема сообщения" type="text"><br>
+            <input class="input__text" placeholder="Введите ваше имя" type="text"><br>
+            <input class="input__text" placeholder="Введите ваш email" type="email"><br>
+            <input class="input__text" placeholder="Тема сообщения" type="text"><br>
             <label> Суть вашего сообщения:
                 <br>
-                <textarea name="area" id="" cols="20" rows="3"></textarea>
+                <textarea class="textarea__message" name="area" id="" cols="20" rows="3"></textarea>
             </label>
             <br>
             <input type="submit">
         </form>
     </fieldset>
     <h3>Адрес</h3>
-    <div><b>Телефон: </b>+375-(25)-214-54-34</div>
-    <div><b>Адрес: </b>Г. Могилёв ул. Первомайская д.1 офис 1</div>
-    <div><b>Email: </b>forsuggestions@winecellar.by</div>
+    <a class="link" href="tel:+375-(25)-214-54-34"><b>Телефон: </b>+375-(25)-214-54-34</a>
+    <div><b>Адрес: </b>Г.&nbsp;Могилёв ул. Первомайская д.1 офис 1</div>
+    <a class="link" href="mailto:forsuggestions@winecellar.by"><b>Email: </b>forsuggestions@winecellar.by</a>
     <br>
     <br>
     <iframe
@@ -43,7 +44,7 @@
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     <br>
     <br>
-    <p>&copy; "Все права защищены"</p>
+    <p>&copy;&nbsp;&laquo;Все права защищены&raquo;</p>
 </body>
 
 </html>
