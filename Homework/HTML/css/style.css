@@ -59,6 +59,16 @@ body {
     font-size: 20px;
     color: rgb(102, 14, 61);
     font-weight: bold;
+    text-transform: capitalize;
+}
+
+.input__text::-webkit-input-placeholder {
+    text-transform: none;
+}
+
+.email {
+    color: rgb(102, 14, 61);
+    background-color: rgb(239, 249, 198);
 }
 
 .textarea__message {
