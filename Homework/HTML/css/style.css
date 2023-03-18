@@ -101,7 +101,8 @@ body {
     text-decoration: none;
 }
 
-.char {
+.char,
+.descr__benefits {
     width: 530px;
     border-collapse: collapse;
     border-spacing: 0;
@@ -111,19 +112,16 @@ body {
 }
 
 .char,
+.descr__benefits,
+.descr__benefits td,
+.descr__benefits th,
 .char td,
 .char th {
     border: 1px solid #595959;
-}
-
-.char td,
-.char th {
     padding: 3px;
     height: 35px;
 }
 
-.char th {
-    background: #347c99;
-    color: #fff;
-    font-weight: normal;
+.descr__benefits td {
+    text-align: center;
 }
