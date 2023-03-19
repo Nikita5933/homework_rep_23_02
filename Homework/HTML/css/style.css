@@ -2,7 +2,7 @@ body {
     background-color: #f8f8f8;
 }
 
-.navigation a {
+.header__navigation a {
     font-size: 26px;
     color: rgb(102, 14, 61);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -10,8 +10,21 @@ body {
     text-decoration: none;
 }
 
-.navigation li {
+.header__navigation li {
     list-style-type: none;
+}
+
+.header__navigation li a:hover {
+    color: rgb(141, 46, 231);
+}
+
+.header__logo {
+    width: 200px;
+    height: 150px;
+}
+
+.header__text {
+    display: inline;
 }
 
 .title {
@@ -34,11 +47,17 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    margin-bottom: 20px;
+}
+
+.descr p::first-letter,
+.descr__full::first-letter {
+    color: rgb(102, 14, 61);
+    font-size: 30px;
 }
 
 .char {
     color: rgb(127, 147, 48);
-    text-decoration: dashed;
     font-size: 18px;
     list-style-type: none;
     list-style-image: url(../img/icons/apply_icon.png);
@@ -48,19 +67,42 @@ body {
     width: 300px;
     height: 20px;
     font-size: 20px;
-    color: rgb(102, 14, 61);
     font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.input__text::-webkit-input-placeholder {
+    text-transform: none;
+}
+
+.email {
+    color: rgb(102, 14, 61);
+    background-color: rgb(239, 249, 198);
+}
+
+form {
+    width: 320px;
+}
+
+iframe {
+    margin: 20px 0;
 }
 
 .textarea__message {
+    display: block;
     width: 200px;
     height: 80px;
     font-size: 18px;
+    margin-bottom: 8px;
 }
 
 .item__img img {
-    border: 3px solid rgb(102, 14, 61);
+    outline: 3px solid rgb(102, 14, 61);
+}
 
+.item__img img:hover {
+    outline: none;
 }
 
 .price {
@@ -72,4 +114,47 @@ body {
 .link {
     color: black;
     text-decoration: none;
+}
+
+.char,
+.descr__benefits {
+    width: 530px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+    color: rgb(127, 147, 48);
+    font-size: 18px;
+}
+
+.char,
+.descr__benefits,
+.descr__benefits td,
+.descr__benefits th,
+.char td,
+.char th {
+    border: 1px solid #595959;
+    padding: 3px;
+    height: 35px;
+}
+
+.descr__benefits {
+    text-align: center;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    width: 410px;
+}
+
+.first-row {
+    height: 70px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.watch-link {
+    margin-bottom: 20px;
+    display: block;
 }
