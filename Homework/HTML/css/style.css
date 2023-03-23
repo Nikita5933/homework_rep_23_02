@@ -197,3 +197,16 @@ span {
     margin-bottom: 20px;
     display: block;
 }
+
+.footer {
+    background-color: rgb(123, 181, 243);
+    height: 140px;
+    display: flex;
+    justify-content: end;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer__text {
+    margin-top: 8px;
+    margin-right: 8px;
+}
