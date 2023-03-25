@@ -71,6 +71,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
+    margin-top: 20px;
 }
 
 .descr {
@@ -78,6 +79,7 @@ body {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+
 }
 
 .descr__full {
@@ -99,7 +101,6 @@ body {
     color: rgb(127, 147, 48);
     font-size: 18px;
     list-style-type: none;
-    list-style-image: url(../img/icons/apply_icon.png);
 }
 
 .input__text {
@@ -138,6 +139,9 @@ iframe {
 
 .item__img img {
     outline: 3px solid rgb(102, 14, 61);
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
 }
 
 .item__img img:hover {
@@ -166,23 +170,11 @@ iframe {
 }
 
 .char,
-.descr__benefits,
-.descr__benefits td,
-.descr__benefits th,
 .char td,
 .char th {
     border: 1px solid #595959;
     padding: 3px;
     height: 35px;
-}
-
-.descr__benefits {
-    text-align: center;
-    color: #707070;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
-    width: 410px;
 }
 
 .first-row {
@@ -209,4 +201,38 @@ span {
 .footer__text {
     margin-top: 8px;
     margin-right: 8px;
+}
+
+.first-section {
+    display: flex;
+}
+
+.column {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    align-self: end;
+    margin-right: 20px;
+    font-weight: bold;
+    color: rgb(102, 14, 61);
+    font-size: 15px;
+    border-radius: 4px;
+    background: linear-gradient(#43122d7e, #d970a884);
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s, text-shadow 0.5s;
+}
+
+.button:hover {
+    color: #f8f8f8;
+    text-shadow: 1px 1px 2px white;
+}
+
+.button:active {
+    margin: 2px 18px 2px 2px;
 }
