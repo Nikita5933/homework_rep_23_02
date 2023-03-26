@@ -256,3 +256,8 @@ span {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.map {
+    width: 100%;
+    height: 374px;
+}
